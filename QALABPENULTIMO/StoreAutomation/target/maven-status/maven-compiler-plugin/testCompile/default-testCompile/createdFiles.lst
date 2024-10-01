@@ -1,0 +1,4 @@
+com\store\pages\LoginPage.class
+com\store\utils\ReportGenerator.class
+com\store\tests\StoreTest.class
+com\store\pages\ProductPage.class

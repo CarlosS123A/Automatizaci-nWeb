@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.store.tests.StoreTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 1.912 s <<< FAILURE! - in com.store.tests.StoreTest
+com.store.tests.StoreTest.setup  Time elapsed: 1.763 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 129.0.6668.60 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'CARLITOSTIASUS', ip: '192.168.1.9'
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+	at com.store.tests.StoreTest.setup(StoreTest.java:22)
+
